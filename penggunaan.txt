@@ -1,0 +1,12 @@
+frontend :
+cd frontend
+npm run dev
+
+backend : 
+cd backend
+(powershel)
+    .\venv\Scripts\Activate.ps1
+(cmd)
+    venv\Scripts\activate.bat
+
+uvicorn main:app --reload
